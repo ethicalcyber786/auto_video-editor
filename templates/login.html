@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MLS Login</title>
+    <style>
+        body { background: #000; color: white; font-family: monospace; text-align: center; padding: 50px; }
+        .box { border: 1px solid red; padding: 30px; display: inline-block; border-radius: 10px; }
+        input { background: #111; color: white; border: 1px solid #444; padding: 10px; margin: 10px; width: 200px; }
+        button { background: red; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2 style="color: red;">MLS STRONG LOGIN</h2>
+        <form method="POST">
+            <input type="text" name="username" placeholder="Username" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <button type="submit">ENTER SYSTEM</button>
+        </form>
+        <p>No account? <a href="/signup" style="color: red;">Sign Up</a></p>
+    </div>
+</body>
+</html>
