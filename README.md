@@ -20,3 +20,11 @@ git clone [https://github.com/ethicalcyber786/auto_video-editor.git]
 cd auto_video-editor
 pip install -r requirements.txt
 python app.py
+
+Once the server is running, access the tool via your browser at:
+http://127.0.0.1:5500
+​💳 Credits & Support
+​For technical issues, feature requests, or credit upgrades, please contact the developer:
+​Developer: Abdul Hameed (MLS STRONG)
+​WhatsApp: +923165305671
+​© 2026 MLS STRONG | Developed by ethicalcyber786
