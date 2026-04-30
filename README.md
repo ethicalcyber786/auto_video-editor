@@ -16,7 +16,7 @@ First, ensure your Termux is up-to-date and install the required packages:
 ```bash
 pkg update && pkg upgrade -y
 pkg install python ffmpeg -y
-git clone [https://github.com/ethicalcyber786/auto-ai](https://github.com/ethicalcyber786/auto-ai)
+git clone [https://github.com/ethicalcyber786/auto_video-editor.git]
 cd auto-ai
 pip install -r requirements.txt
 python app.py
