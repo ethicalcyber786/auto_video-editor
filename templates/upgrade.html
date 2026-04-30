@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>MLS | UPGRADE</title>
+    <style>
+        body { background: #050505; color: #00ff41; font-family: 'Arial Black', sans-serif; margin: 0; padding: 20px; text-align: center; }
+        .pkg-box { border: 2px solid #00ff41; padding: 25px; margin: 20px auto; max-width: 400px; border-radius: 20px; transition: 0.3s; background: #0a0a0a; }
+        .pkg-box:active { background: #00ff41; color: #000; transform: scale(0.95); }
+        .price { font-size: 26px; display: block; margin-top: 10px; color: #ffd700; }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: 24px; margin-top: 30px;">[ UPGRADE_REQUIRED ]</h1>
+    <p style="font-size: 12px; margin-bottom: 40px;">YOUR CREDITS EXPIRED. SELECT A PLAN.</p>
+
+    <div class="pkg-box" onclick="pay('WEEKLY_500')">WEEKLY ACCESS<span class="price">RS. 500</span></div>
+    <div class="pkg-box" onclick="pay('MONTHLY_1500')">MONTHLY ACCESS<span class="price">RS. 1500</span></div>
+    <div class="pkg-box" onclick="pay('YEARLY_5000')">YEARLY ACCESS<span class="price">RS. 5000</span></div>
+    <div class="pkg-box" onclick="pay('LIFETIME_10000')">LIFETIME ACCESS<span class="price">RS. 10000</span></div>
+
+    <script>
+        function pay(p) {
+            let num = "923165305671";
+            let msg = `Bhai, Mujhe ye package chahiye: ${p}. User: {{ user.username }}`;
+            window.location.href = `https://wa.me/${num}?text=${encodeURIComponent(msg)}`;
+        }
+    </script>
+</body>
+</html>
