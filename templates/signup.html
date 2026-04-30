@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MLS - Signup</title>
+    <style>
+        body { background: #121212; color: white; font-family: Arial; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: #1e1e1e; padding: 30px; border-radius: 10px; width: 300px; text-align: center; }
+        input { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: none; background: #333; color: white; box-sizing: border-box;}
+        button { width: 100%; padding: 10px; background: #2ecc71; border: none; color: white; cursor: pointer; border-radius: 5px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2 style="color:#2ecc71">CREATE ACCOUNT</h2>
+        <form method="POST">
+            <input type="text" name="username" placeholder="Chuno Username" required>
+            <input type="password" name="password" placeholder="Chuno Password" required>
+            <button type="submit">Signup Now</button>
+        </form>
+        <p style="font-size: 12px;">Pehle se account hai? <a href="/login" style="color:#2ecc71">Login</a></p>
+    </div>
+</body>
+</html>
